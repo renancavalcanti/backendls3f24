@@ -11,7 +11,7 @@ app.register_blueprint(task)
 
 @app.route('/', methods=['GET'])
 def home():
-    return "<h1>HOME</h1>"
+    return "<h1>HOME HOME</h1>"
 
 if __name__ == '__main__':
     app.run()
